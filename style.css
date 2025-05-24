@@ -30,6 +30,7 @@ main {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
+/* Imagem do perfil, Nome Perfil, Bio */
 .about {
   display: flex;
   flex-direction: column;
@@ -49,8 +50,15 @@ main {
   font-size: 2rem;
   color: #1976d2;
   margin-bottom: 16px;
+
 }
 
+.bio p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+/* Minhas Habilidades */
 .skills ul {
   list-style: none;
   margin-top: 20px;
@@ -61,6 +69,18 @@ main {
   margin: 8px 0;
 }
 
+/* Resumo da minha Trajetória */
+.career-summary {
+  margin-top: 20px;
+}
+
+.career-summary p{
+  margin-top: 20px;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+/* Rodapé */
 footer {
   text-align: center;
   margin-top: 40px;
@@ -80,6 +100,7 @@ footer {
     margin-left: 20px;
   }
 
+  /* Minhas Habilidades */
   .skills ul {
     display: flex;
     flex-wrap: wrap;
