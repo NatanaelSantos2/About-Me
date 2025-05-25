@@ -46,16 +46,16 @@ main {
   margin-bottom: 16px;
 }
 
+.bio-edit {
+  display: flex;
+  flex-direction: row;
+}
+
 .bio h2 {
   font-size: 2rem;
   color: #1976d2;
   margin-bottom: 16px;
 
-}
-
-.bio p {
-  text-indent: 20px;
-  text-align: justify;
 }
 
 /* Minhas Habilidades */

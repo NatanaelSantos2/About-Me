@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sobre Mim</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 
 <body>
@@ -19,11 +19,20 @@
         src="https://media.licdn.com/dms/image/v2/D4D03AQHT-NVwRUhh5w/profile-displayphoto-shrink_200_200/B4DZabvbjQG0AY-/0/1746369625098?e=1752710400&v=beta&t=aqtr5sSEnKgIysyINH7z5GPPnvnfYNf3Dk-fP-tZkio"
         alt="foto natanael" class="profile-photo" />
       <article class="bio">
-        <h2>Natanael Santos</h2>
-        <p>Sou um desenvolvedor Full Stack apaixonado por criar experiências digitais
+        <div class="bio-edit">
+          <h2 id="bio-editName" contenteditable="false">Natanael Santos</h2>
+          <div>
+            <button onclick="editText()">Editar</button>
+            <button onclick="saveText()">Salvar</button>
+          </div>
+        </div>
+        
+        <p id="descricao">Sou um desenvolvedor Full Stack apaixonado por criar experiências digitais
           inovadoras e acessíveis. Acredito que a tecnologia deve facilitar a vida
-          das pessoas, por isso estou sempre em busca de novos desafios e aprendizado.</p>
-      </article>
+          das pessoas, por isso estou sempre em busca de novos desafios e aprendizado.
+        </p>
+        
+        </article>
     </section>
 
     <section class="skills">
@@ -62,6 +71,8 @@
     </section>
 
   </main>
+
+  <script src="assets/js/script.js"></script>
 
   <footer>
     <p>&copy; 2025 Natanael</p>
