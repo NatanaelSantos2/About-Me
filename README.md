@@ -1,6 +1,9 @@
 Página "Sobre Mim" Responsiva
 Página com informações pessoais e habilidades, adaptável a dispositivos móveis e desktop via media queries.
-````Veja o site: https://natanaelsantos2.github.io/About-Me/````
+Veja o site:
+```bash
+https://natanaelsantos2.github.io/About-Me/
+```
 
 📂 Pasta: `/sobre-mim`
 
@@ -26,4 +29,4 @@ Página com informações pessoais e habilidades, adaptável a dispositivos móv
 1. Clone o repositório:
 ```bash
 https://github.com/NatanaelSantos2/About-Me.git
-````
+```
