@@ -29,4 +29,3 @@ https://natanaelsantos2.github.io/About-Me/
 1. Clone o repositório:
 ```bash
 https://github.com/NatanaelSantos2/About-Me.git
-```
